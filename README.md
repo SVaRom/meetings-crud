@@ -64,3 +64,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## How to run
+
+You need to download this file on you htdocs folder. Then please open that route on your terminal twice.
+First run yor apache and mysql server.
+In a terminal run "php artisan serve".
+In the other one run "npm run dev".
+Finally on your browser go to "localhost/8000".
+Hope you enjoy it! -VaRom
