@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import axios from "axios";
 import { useNavigate, useLocation } from "react-router-dom";
-const endpoint = "http://localhost/meetings-app/meetings-crud/public/api/";
+const endpoint = "http://localhost/meetings-crud/public/api/";
 const Update = () => {
     let history = useNavigate();
     let location = useLocation();

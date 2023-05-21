@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 
-const endpoint = "http://localhost/meetings-app/meetings-crud/public/api/";
+const endpoint = "http://localhost/meetings-crud/public/api/";
 const App = (props) => {
     let history = useNavigate();
     const [schedules, setSchedules] = useState([]);
